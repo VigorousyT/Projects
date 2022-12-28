@@ -16,6 +16,7 @@ import User from "./models/User.js";
 import Post from "./models/Post.js";
 import { createPost } from "./controller/posts.js";
 import { verifyToken } from "./middleware/auth.js";
+import { users, posts } from "./data/data.js";
 
 //-----Configurations-----//
 const __filename = fileURLToPath(import.meta.url);
@@ -51,6 +52,10 @@ app.post("/posts", verifyToken, upload.single("picture"), createPost);
 app.use("/auth", authroutes);
 app.use("/user", userroutes);
 app.use("/posts", postsroutes);
+
+/* ADD DATA ONE TIME */
+// User.insertMany(users);
+// Post.insertMany(posts);
 
 /* Mongoose */
 const PORT = process.env.PORT || 5000;
