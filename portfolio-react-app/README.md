@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This Project Contains react: v18.2.0, react-dom: v18.2.0, react-hook-form: v7.39.3, react-icons: v4.7.1, react-router: v6.6.1, react-router-dom: v6.6.1 .
+
 ## Available Scripts
 
 In the project directory, you have to run:
