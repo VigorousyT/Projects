@@ -23,6 +23,9 @@
 .home__title {
   font-size: var(--big-font-size);
   margin-bottom: var(--mb-0-25);
+  background: linear-gradient(to right, #ff7cff, #00575cbc, #a80242, #ffd885);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 .home__subtitle {
@@ -31,6 +34,9 @@
   padding-left: 5.4rem;
   font-weight: var(--font-normal);
   margin-bottom: var(--mb-1);
+  background: linear-gradient(to right, #f90361, #3713d5, #017931, #ff02ff);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 .home__subtitle::before {

@@ -13,7 +13,8 @@ function About() {
     <>
       <Navbar />
       <section className="about section" id="about">
-        <h2 className="section__title">Hello, it's Harsh Here</h2>
+        <h2 className="about1__title1">About Me!</h2>
+        <h4 className="about2__title2">Hello, it's Harsh Here</h4>
         <br />
         <div className="about__container container grid">
           <img src={HarshImg} alt="" className="about__img" />

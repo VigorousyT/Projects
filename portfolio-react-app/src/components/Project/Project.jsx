@@ -1,11 +1,13 @@
 import React from "react";
-import Link from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Project() {
   return (
     <div>
       <h1>405 - Under Development...</h1>
-      <Link to="/">Go to Home</Link>
+      <h2>
+        Go to<Link to="/"> Home</Link>
+      </h2>
     </div>
   );
 }

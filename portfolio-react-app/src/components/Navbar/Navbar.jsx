@@ -4,7 +4,7 @@ import "./Navbar.css";
 import { AiOutlineHome } from "react-icons/ai";
 import { AiOutlineBulb } from "react-icons/ai";
 import { GiOvermind } from "react-icons/gi";
-import { AiOutlineContacts, AiOutlineFile } from "react-icons/ai";
+import { AiOutlineContacts } from "react-icons/ai";
 import { RxCross2 } from "react-icons/rx";
 import { SiAboutdotme } from "react-icons/si";
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -23,7 +23,7 @@ function Navbar() {
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
           <ul className="nav__list grid">
             <li className="nav__item">
-              <Link to="/home" className="nav__link">
+              <Link to="/" className="nav__link">
                 <AiOutlineHome className="navbar-icon" />
                 <div className="link-text">Home</div>
               </Link>
@@ -44,12 +44,6 @@ function Navbar() {
               <Link to="/project" className="nav__link">
                 <AiOutlineBulb className="navbar-icon" />
                 <div className="link-text">Projects</div>
-              </Link>
-            </li>
-            <li className="nav__item">
-              <Link to="/portfolio" className="nav__link">
-                <AiOutlineFile className="navbar-icon" />
-                <div className="link-text">Portfolio</div>
               </Link>
             </li>
             <li className="nav__item">
