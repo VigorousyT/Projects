@@ -1,6 +1,7 @@
 import React from "react";
-import { BsCodeSquare } from "react-icons/bs";
+import { SiExpress, SiMongodb } from "react-icons/si";
 import "../Skills.css";
+import { FaNodeJs } from "react-icons/fa";
 
 const Backend = () => {
   return (
@@ -11,58 +12,29 @@ const Backend = () => {
         <div className="skills__box">
           <ul className="skills__group">
             <li className="skills__data">
-              <BsCodeSquare size={11} />
+              <FaNodeJs size={14} />
 
               <div>
-                <h3 className="skills__name">HTML</h3>
+                <h3 className="skills__name">Node.js</h3>
+                <span className="skills__level"></span>
               </div>
             </li>
 
             <li className="skills__data">
-              <BsCodeSquare size={11} />
+              <SiExpress size={11} />
 
               <div>
-                <h3 className="skills__name">CSS</h3>
+                <h3 className="skills__name">Express.js</h3>
+                <span className="skills__level"></span>
               </div>
             </li>
 
             <li className="skills__data">
-              <BsCodeSquare size={11} />
+              <SiMongodb size={11} />
 
               <div>
-                <h3 className="skills__name">JavaScript</h3>
-              </div>
-            </li>
-
-            <li className="skills__data">
-              <BsCodeSquare size={11} />
-
-              <div>
-                <h3 className="skills__name">HTML</h3>
-              </div>
-            </li>
-
-            <li className="skills__data">
-              <BsCodeSquare size={11} />
-
-              <div>
-                <h3 className="skills__name">HTML</h3>
-              </div>
-            </li>
-
-            <li className="skills__data">
-              <BsCodeSquare size={11} />
-
-              <div>
-                <h3 className="skills__name">HTML</h3>
-              </div>
-            </li>
-
-            <li className="skills__data">
-              <BsCodeSquare size={11} />
-
-              <div>
-                <h3 className="skills__name">HTML</h3>
+                <h3 className="skills__name">MongoDb</h3>
+                <span className="skills__level"></span>
               </div>
             </li>
           </ul>

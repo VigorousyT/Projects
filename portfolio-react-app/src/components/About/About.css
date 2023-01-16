@@ -37,6 +37,7 @@
   font-weight: rgba(85, 2, 39, 0.573);
   background: linear-gradient(to right, #fa7cfa, #00575cbc, #a80242, #ffd885);
   -webkit-text-fill-color: transparent;
+  background-clip: text;
   -webkit-background-clip: text;
 }
 
@@ -45,6 +46,7 @@
   font-size: 2rem;
   background: linear-gradient(to right, #f90361, #3713d5, #017931, #ff02ff);
   -webkit-text-fill-color: transparent;
+  background-clip: text;
   -webkit-background-clip: text;
 }
 

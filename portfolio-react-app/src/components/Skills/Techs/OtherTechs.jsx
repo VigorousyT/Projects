@@ -1,6 +1,8 @@
 import React from "react";
 import "../Skills.css";
-import { BsCodeSquare } from "react-icons/bs";
+import { SiAdobephotoshop } from "react-icons/si";
+import { FaLinux } from "react-icons/fa";
+import { AiOutlineGithub } from "react-icons/ai";
 
 const OtherTechs = () => {
   return (
@@ -11,58 +13,29 @@ const OtherTechs = () => {
         <div className="skills__box">
           <ul className="skills__group">
             <li className="skills__data">
-              <BsCodeSquare size={11} />
+              <FaLinux size={11} />
 
               <div>
-                <h3 className="skills__name">HTML</h3>
+                <h3 className="skills__name">Linux</h3>
+                <span className="skills__level"></span>
               </div>
             </li>
 
             <li className="skills__data">
-              <BsCodeSquare size={11} />
+              <AiOutlineGithub size={11} />
 
               <div>
-                <h3 className="skills__name">CSS</h3>
+                <h3 className="skills__name">GitHub</h3>
+                <span className="skills__level"></span>
               </div>
             </li>
 
             <li className="skills__data">
-              <BsCodeSquare size={11} />
+              <SiAdobephotoshop size={11} />
 
               <div>
-                <h3 className="skills__name">JavaScript</h3>
-              </div>
-            </li>
-
-            <li className="skills__data">
-              <BsCodeSquare size={11} />
-
-              <div>
-                <h3 className="skills__name">HTML</h3>
-              </div>
-            </li>
-
-            <li className="skills__data">
-              <BsCodeSquare size={11} />
-
-              <div>
-                <h3 className="skills__name">HTML</h3>
-              </div>
-            </li>
-
-            <li className="skills__data">
-              <BsCodeSquare size={11} />
-
-              <div>
-                <h3 className="skills__name">HTML</h3>
-              </div>
-            </li>
-
-            <li className="skills__data">
-              <BsCodeSquare size={11} />
-
-              <div>
-                <h3 className="skills__name">HTML</h3>
+                <h3 className="skills__name">Adobe Photoshop</h3>
+                <span className="skills__level"></span>
               </div>
             </li>
           </ul>

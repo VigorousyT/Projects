@@ -4,9 +4,11 @@ import ComponentApp from './components/ComponentApp';
 import Home from './components/Home/Home';
 import About from './components/About/About';
 import Skills from './components/Skills/Skills';
+import Achievement from './components/Achievement/Achievement';
 import Blog from './components/Blog';
 import Contact from './components/Contact/Contact';
 import Project from './components/Project/Project';
+
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
         <Route path='/home' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/skills' element={<Skills />} />
+        <Route path='/achievement' element={<Achievement />} />
         <Route path='/project' element={<Project />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/blog' element={<Blog />} />

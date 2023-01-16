@@ -4,7 +4,21 @@
   justify-content: center;
 }
 .section__title {
-  padding-bottom: 1.5rem;
+  padding-top: 1.25rem;
+  font-size: 3rem;
+  background: linear-gradient(to right, #fa7cfa, #00575cbc, #a80242, #ffd885);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.section__subtitle {
+  text-align: center;
+  font-size: 2rem;
+  background: linear-gradient(to right, #f90361, #3713d5, #017931, #ff02ff);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
 }
 
 .skills__content {
@@ -20,7 +34,12 @@
   font-weight: var(--font-medium);
   text-align: center;
   margin-bottom: 1rem;
+  background: linear-gradient(to right, #0804fc, #fab803, #af01ff, #acfa03);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
 }
+
 .skills__name {
   font-size: 0.75rem;
   font-weight: 550;

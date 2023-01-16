@@ -7,6 +7,7 @@ import { FcLikePlaceholder } from "react-icons/fc";
 import { RiCharacterRecognitionLine } from "react-icons/ri";
 import { SiSitepoint } from "react-icons/si";
 import Navbar from "../Navbar/Navbar";
+import Qualification from "../Qualifications/Qualifications";
 
 function About() {
   return (
@@ -45,12 +46,7 @@ function About() {
                 <br />
               </div>
             </div>
-            <p className="about__description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Laudantium voluptate delectus tenetur! Delectus atque eligendi ut
-              dignissimos suscipit aspernatur id vel alias repellendus eaque,
-              eos debitis! Molestiae eos soluta aspernatur.
-            </p>
+            <p className="about__description">{/* Please Write About you */}</p>
 
             <a download="" href={CV} className="button button--flex">
               Download CV &nbsp;&nbsp;
@@ -59,6 +55,9 @@ function About() {
           </div>
         </div>
       </section>
+      <br />
+      <br />
+      <Qualification />
     </>
   );
 }

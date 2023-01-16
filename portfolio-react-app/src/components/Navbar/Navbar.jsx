@@ -7,7 +7,7 @@ import { GiOvermind } from "react-icons/gi";
 import { AiOutlineContacts } from "react-icons/ai";
 import { RxCross2 } from "react-icons/rx";
 import { SiAboutdotme } from "react-icons/si";
-import { GiHamburgerMenu } from "react-icons/gi";
+import { GiHamburgerMenu, GiAchievement } from "react-icons/gi";
 import logo from "../../assets/Logo.png";
 
 function Navbar() {
@@ -38,6 +38,12 @@ function Navbar() {
               <Link to="/skills" className="nav__link">
                 <GiOvermind className="navbar-icon" />
                 <div className="link-text">Skills</div>
+              </Link>
+            </li>
+            <li className="nav__item">
+              <Link to="/achievement" className="nav__link">
+                <GiAchievement className="navbar-icon" />
+                <div className="link-text">Actions</div>
               </Link>
             </li>
             <li className="nav__item">

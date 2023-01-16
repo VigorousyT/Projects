@@ -81,6 +81,8 @@ export const workImages = [
 ]
 
 
+
+
 export const workNavs = [
     "All", "Web", "Design"
 ]

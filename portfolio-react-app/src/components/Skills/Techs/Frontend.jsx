@@ -1,6 +1,7 @@
 import React from "react";
-import { BsCodeSquare } from "react-icons/bs";
 import "../Skills.css";
+import { SiJavascript, SiReactrouter } from "react-icons/si";
+import { FaHtml5, FaCss3Alt, FaReact } from "react-icons/fa";
 
 const Frontend = () => {
   return (
@@ -11,58 +12,47 @@ const Frontend = () => {
         <div className="skills__box">
           <ul className="skills__group">
             <li className="skills__data">
-              <BsCodeSquare size={11} />
+              <FaHtml5 size={14} />
 
               <div>
                 <h3 className="skills__name">HTML</h3>
+                <span className="skills__level"></span>
               </div>
             </li>
 
             <li className="skills__data">
-              <BsCodeSquare size={11} />
+              <FaCss3Alt size={14} />
 
               <div>
                 <h3 className="skills__name">CSS</h3>
+                <span className="skills__level"></span>
               </div>
             </li>
 
             <li className="skills__data">
-              <BsCodeSquare size={11} />
+              <SiJavascript size={11} />
 
               <div>
                 <h3 className="skills__name">JavaScript</h3>
+                <span className="skills__level"></span>
               </div>
             </li>
 
             <li className="skills__data">
-              <BsCodeSquare size={11} />
+              <FaReact size={12} />
 
               <div>
-                <h3 className="skills__name">HTML</h3>
+                <h3 className="skills__name">React Library</h3>
+                <span className="skills__level"></span>
               </div>
             </li>
 
             <li className="skills__data">
-              <BsCodeSquare size={11} />
+              <SiReactrouter size={12} />
 
               <div>
-                <h3 className="skills__name">HTML</h3>
-              </div>
-            </li>
-
-            <li className="skills__data">
-              <BsCodeSquare size={11} />
-
-              <div>
-                <h3 className="skills__name">HTML</h3>
-              </div>
-            </li>
-
-            <li className="skills__data">
-              <BsCodeSquare size={11} />
-
-              <div>
-                <h3 className="skills__name">HTML</h3>
+                <h3 className="skills__name">React Router</h3>
+                <span className="skills__level"></span>
               </div>
             </li>
           </ul>

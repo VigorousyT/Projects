@@ -23,9 +23,20 @@
 .home__title {
   font-size: var(--big-font-size);
   margin-bottom: var(--mb-0-25);
-  background: linear-gradient(to right, #ff7cff, #00575cbc, #a80242, #ffd885);
+  background: linear-gradient(to right, #c401ff, #840033, #7c5500, #00f2ffbc);
   -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  background-clip: text;
+  --webkit-background-clip: text;
+  animation: move-bg 5s linear infinite;
+}
+
+@keyframes move-bg {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
 }
 
 .home__subtitle {
@@ -36,7 +47,8 @@
   margin-bottom: var(--mb-1);
   background: linear-gradient(to right, #f90361, #3713d5, #017931, #ff02ff);
   -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  background-clip: text;
+  --webkit-background-clip: text;
 }
 
 .home__subtitle::before {
