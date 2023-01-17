@@ -12,7 +12,7 @@
   --title-color: hsl(var(--hue), var(--sat), 20%);
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
   --text-color: hsl(var(--hue), var(--sat), 46%);
-  --body-color: hsl(var(--hue), var(--sat), 98%);
+  --body-color: hsl(var(--hue), var(--sat), 95%);
   --container-color: #fff;
 
   /*========== Font and typography ==========*/
@@ -83,7 +83,7 @@ textarea {
 }
 
 body {
-  background-color: var(--body-color);
+  background-color: hsl(205, 26%, 94%); /* Changes the background*/
   color: var(--text-color);
 }
 

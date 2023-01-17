@@ -93,6 +93,9 @@
 
 /* For medium devices */
 @media screen and (max-width: 768px) {
+  .about1__title1 {
+    margin-top: 3rem;
+  }
 }
 
 @media screen and (max-width: 576px) {

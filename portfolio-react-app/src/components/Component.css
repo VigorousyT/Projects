@@ -15,6 +15,61 @@
   }
 }
 
-/* -------------------------------- Home CSS ------------------------------ */
+/* -------------------------------- Done CSS ------------------------------ */
 
-/* -------------------------------- Home CSS ------------------------------ */
+.done__title1 {
+  text-align: center;
+  padding-top: 4rem;
+  font-size: 4rem;
+  background: linear-gradient(to right, #0318ff, #1bf803, #f90303, #f8048a);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation: done_animate 1s linear infinite;
+}
+
+@keyframes done_animate {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+
+.done__subtitle1 {
+  padding-left: 42rem;
+  font-size: 3rem;
+}
+
+.done__title2 {
+  text-align: center;
+  font-size: 1.25rem;
+  background: linear-gradient(to left, #d903ff, #03f8f8, #e8f903);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation: done_animate 2s linear infinite;
+}
+
+.done__subtitle2 {
+  color: #6ba11a;
+  font-weight: 900;
+  font-size: 25px;
+  padding: 1rem 1.5rem;
+  padding-left: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.card {
+  background: white;
+  padding: 60px;
+  border-radius: 4px;
+  box-shadow: 0 50px 80px #c8d0d8;
+  display: inline-block;
+  margin: 0 auto;
+}
+.inner__card {
+  padding-left: 0.75rem;
+}
+/* -------------------------------- Done CSS ------------------------------ */

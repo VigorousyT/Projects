@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 import "./Navbar.css";
 import { AiOutlineHome } from "react-icons/ai";
 import { AiOutlineBulb } from "react-icons/ai";
-import { GiOvermind } from "react-icons/gi";
+import { GiOvermind, GiAchievement } from "react-icons/gi";
 import { AiOutlineContacts } from "react-icons/ai";
 import { RxCross2 } from "react-icons/rx";
 import { SiAboutdotme } from "react-icons/si";
-import { GiHamburgerMenu, GiAchievement } from "react-icons/gi";
+import { FiMenu } from "react-icons/fi";
 import logo from "../../assets/Logo.png";
 
 function Navbar() {
@@ -62,7 +62,7 @@ function Navbar() {
           <RxCross2 onClick={() => showMenu(!Toggle)} className="nav__close" />
         </div>
         <div className="nav__toggle">
-          <GiHamburgerMenu onClick={() => showMenu(!Toggle)} size={25} />
+          <FiMenu onClick={() => showMenu(!Toggle)} size={30} />
         </div>
       </nav>
     </div>

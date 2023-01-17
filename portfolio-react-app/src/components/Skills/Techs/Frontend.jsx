@@ -12,7 +12,7 @@ const Frontend = () => {
         <div className="skills__box">
           <ul className="skills__group">
             <li className="skills__data">
-              <FaHtml5 size={14} />
+              <FaHtml5 size={15} />
 
               <div>
                 <h3 className="skills__name">HTML</h3>
@@ -21,7 +21,7 @@ const Frontend = () => {
             </li>
 
             <li className="skills__data">
-              <FaCss3Alt size={14} />
+              <FaCss3Alt size={15} />
 
               <div>
                 <h3 className="skills__name">CSS</h3>
@@ -30,7 +30,7 @@ const Frontend = () => {
             </li>
 
             <li className="skills__data">
-              <SiJavascript size={11} />
+              <SiJavascript size={13} />
 
               <div>
                 <h3 className="skills__name">JavaScript</h3>
@@ -39,7 +39,7 @@ const Frontend = () => {
             </li>
 
             <li className="skills__data">
-              <FaReact size={12} />
+              <FaReact size={14} />
 
               <div>
                 <h3 className="skills__name">React Library</h3>
@@ -48,7 +48,7 @@ const Frontend = () => {
             </li>
 
             <li className="skills__data">
-              <SiReactrouter size={12} />
+              <SiReactrouter size={14} />
 
               <div>
                 <h3 className="skills__name">React Router</h3>

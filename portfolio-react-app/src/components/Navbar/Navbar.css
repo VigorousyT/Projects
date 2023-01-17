@@ -4,7 +4,25 @@
   top: 0;
   left: 0;
   z-index: 100;
-  background-color: lightcyan;
+  z-index: 100;
+  background: linear-gradient(
+    to right,
+    #50bbfe,
+    #60c2ff,
+    #70c8ff,
+    #95d6ff,
+    #b0e1ff,
+    #d6efff,
+    #eff3f6,
+    #eff3f6,
+    #d6efff,
+    #b0e1ff,
+    #95d6ff,
+    #70c8ff,
+    #60c2ff,
+    #50bbfe
+  );
+  box-shadow: 0 3px 5px #a5b0ce;
 }
 
 .nav {
@@ -21,7 +39,7 @@
   height: 20%;
 }
 .nav__toggle {
-  color: var(--title-color);
+  color: black;
   font-weight: var(--font-medium);
 }
 

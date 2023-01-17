@@ -41,7 +41,7 @@ export const bios = [
 export const icons = [<FaHtml5 />, <FaCss3 />, <DiJavascript />, <SiTypescript />, <FaReact />, <FaNodeJs />, <FaSass />, <FaFigma />]
 
 
-export const workImages = [
+export const WebWork = [
     {
         id: 1,
         img: work1,
@@ -59,32 +59,33 @@ export const workImages = [
         img: work3,
         name: "project 3",
         category: "web"
-    },
-    {
-        id: 4,
-        img: work4,
-        name: "project 4",
-        category: "design"
-    },
-    {
-        id: 5,
-        img: work5,
-        name: "project 5",
-        category: 'design'
-    },
-    {
-        id: 6,
-        img: work6,
-        name: "project 6",
-        category: "design"
-    }
+    }]
+
+export const DesignWork = [{
+    id: 1,
+    img: work4,
+    name: "project 1",
+    category: "design"
+},
+{
+    id: 2,
+    img: work5,
+    name: "project 2",
+    category: 'design'
+},
+{
+    id: 3,
+    img: work6,
+    name: "project 3",
+    category: "design"
+}
 ]
 
 
 
 
 export const workNavs = [
-    "All", "Web", "Design"
+    "Web", "", "Design"
 ]
 
 export const contacts = [

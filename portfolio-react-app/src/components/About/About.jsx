@@ -48,10 +48,12 @@ function About() {
             </div>
             <p className="about__description">{/* Please Write About you */}</p>
 
-            <a download="" href={CV} className="button button--flex">
-              Download CV &nbsp;&nbsp;
-              <BsFileEarmarkPdfFill />
-            </a>
+            <div className="navigate">
+              <a download="" href={CV} className="button button--flex">
+                Download CV &nbsp;&nbsp;
+                <BsFileEarmarkPdfFill size={15} />
+              </a>
+            </div>
           </div>
         </div>
       </section>

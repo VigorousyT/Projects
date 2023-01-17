@@ -8,6 +8,7 @@ import Achievement from './components/Achievement/Achievement';
 import Blog from './components/Blog';
 import Contact from './components/Contact/Contact';
 import Project from './components/Project/Project';
+import Done from './components/Done';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path='/project' element={<Project />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/blog' element={<Blog />} />
+        <Route path='/done' element={<Done />} />
       </Routes>
     </BrowserRouter>
   );
