@@ -97,7 +97,7 @@ function Project() {
                   Project to create a Responsive Website using Html, Css only
                 </span>
                 <a
-                  href="https://github.com/VigorousyT/Projects/tree/main/Projects%20on%20(Html%2CCSS)/wakecup%20project"
+                  href="https://github.com/VigorousyT/WakeCup-Project"
                   className="work__button"
                 >
                   Link To Code &nbsp; <GoTriangleRight />
