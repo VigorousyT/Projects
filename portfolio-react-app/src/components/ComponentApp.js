@@ -15,9 +15,9 @@ const ComponentApp = () => {
             <Home />
             <About />
             <Skills />
+            <Project />
             <Achievement />
             <Contact />
-            <Project />
             <Outlet />
         </div>
     )
