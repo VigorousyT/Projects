@@ -46,9 +46,9 @@ const Qualifications = () => {
             {/* Upto Experience Button */}
           </div>
 
-          <div className="qualification__sections">
-            {/* Qualifications Timeline */}
+          {/* Qualifications Timeline */}
 
+          <div className="qualification__sections">
             <div
               className={
                 toggle === 1

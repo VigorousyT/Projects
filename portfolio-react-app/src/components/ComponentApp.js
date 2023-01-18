@@ -6,6 +6,7 @@ import { Outlet } from 'react-router';
 import Skills from './Skills/Skills';
 import Achievement from './Achievement/Achievement';
 import Contact from './Contact/Contact';
+import Project from './Project/Project';
 
 const ComponentApp = () => {
     return (
@@ -16,6 +17,7 @@ const ComponentApp = () => {
             <Skills />
             <Achievement />
             <Contact />
+            <Project />
             <Outlet />
         </div>
     )
