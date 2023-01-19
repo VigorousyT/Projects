@@ -94,7 +94,7 @@ function Contact() {
                   type="text"
                   name="name"
                   className="contact__form-input"
-                  placeholder="{Required} Insert your Name"
+                  placeholder="Insert your Name"
                   maxLength={30}
                   required
                 />
@@ -108,7 +108,7 @@ function Contact() {
                   type="email"
                   name="email"
                   className="contact__form-input"
-                  placeholder="{Required} Insert your Email address"
+                  placeholder="Insert your Email address"
                   maxLength={80}
                   required
                 />
@@ -138,7 +138,7 @@ function Contact() {
                   cols="30"
                   rows="10"
                   className="contact__form-input"
-                  placeholder="{Required} what you have in your mind?"
+                  placeholder="what you have in your mind?"
                   required
                 ></textarea>
               </div>
