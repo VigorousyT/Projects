@@ -93,9 +93,7 @@ function Project() {
               <div className="work__card">
                 <img src={WebWork3} alt="" className="work__img" />
                 <h3 className="work__title">WakeCup Coffee App</h3>
-                <span className="work__subtitle">
-                  Project to create a Responsive Website using Html, Css only
-                </span>
+                <span className="work__subtitle"></span>
                 <a
                   href="https://github.com/VigorousyT/WakeCup-Project"
                   className="work__button"
