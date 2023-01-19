@@ -2,18 +2,18 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "./Contact.css";
 import Navbar from "../Navbar/Navbar";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { AiOutlineDoubleRight, AiOutlineMail } from "react-icons/ai";
 import { GrContactInfo, GrSkype } from "react-icons/gr";
 import { GiSubmarineMissile } from "react-icons/gi";
 
 function Contact() {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
-  const handleClick = () => {
-    navigate("/done");
-  };
+  // const handleClick = () => {
+  //   navigate("/done");
+  // };
 
   const form = useRef();
   const sendEmail = (e) => {

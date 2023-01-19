@@ -83,7 +83,7 @@ textarea {
 }
 
 body {
-  background-color: hsl(205, 26%, 96%); /* Changes the background*/
+  background-color: hsl(205, 26%, 98%); /* Changes the background*/
   color: var(--text-color);
 }
 

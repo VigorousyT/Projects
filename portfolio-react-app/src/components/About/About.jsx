@@ -8,6 +8,7 @@ import { RiCharacterRecognitionLine } from "react-icons/ri";
 import { SiSitepoint } from "react-icons/si";
 import Navbar from "../Navbar/Navbar";
 import Qualification from "../Qualifications/Qualifications";
+import Footer from "../Footer";
 
 function About() {
   return (
@@ -49,7 +50,13 @@ function About() {
             <p className="about__description">{/* Please Write About you */}</p>
 
             <div className="navigate">
-              <a download="" href={CV} className="button button--flex">
+              <a
+                download=""
+                href={CV}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="button button--flex"
+              >
                 Download CV &nbsp;&nbsp;
                 <BsFileEarmarkPdfFill size={15} />
               </a>
