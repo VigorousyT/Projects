@@ -24,37 +24,37 @@ function Navbar() {
           <ul className="nav__list grid">
             <li className="nav__item">
               <Link to="/" className="nav__link">
-                <AiOutlineHome className="navbar-icon" />
+                <AiOutlineHome size={15} className="navbar-icon" />
                 <div className="link-text">Home</div>
               </Link>
             </li>
             <li className="nav__item">
               <Link to="/about" className="nav__link">
-                <SiAboutdotme className="navbar-icon" />
+                <SiAboutdotme size={15} className="navbar-icon" />
                 <div className="link-text">About</div>
               </Link>
             </li>
             <li className="nav__item">
               <Link to="/skills" className="nav__link">
-                <GiOvermind className="navbar-icon" />
+                <GiOvermind size={15} className="navbar-icon" />
                 <div className="link-text">Skills</div>
               </Link>
             </li>
             <li className="nav__item">
               <Link to="/achievement" className="nav__link">
-                <GiAchievement className="navbar-icon" />
+                <GiAchievement size={15} className="navbar-icon" />
                 <div className="link-text">Actions</div>
               </Link>
             </li>
             <li className="nav__item">
               <Link to="/project" className="nav__link">
-                <AiOutlineBulb className="navbar-icon" />
+                <AiOutlineBulb size={15} className="navbar-icon" />
                 <div className="link-text">Projects</div>
               </Link>
             </li>
             <li className="nav__item">
               <Link to="/contact" className="nav__link">
-                <AiOutlineContacts className="navbar-icon" />
+                <AiOutlineContacts size={15} className="navbar-icon" />
                 <div className="link-text">Contact</div>
               </Link>
             </li>

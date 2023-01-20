@@ -12,10 +12,10 @@
     #70c8ff,
     #95d6ff,
     #b0e1ff,
-    #d6efff,
-    #eff3f6,
-    #eff3f6,
-    #d6efff,
+    #c9eaff,
+    #d0e9ff,
+    #d0e9ff,
+    #c9eaff,
     #b0e1ff,
     #95d6ff,
     #70c8ff,
@@ -38,6 +38,7 @@
   width: 20%;
   height: 20%;
 }
+
 .nav__toggle {
   color: black;
   font-weight: var(--font-medium);
@@ -53,9 +54,9 @@
   flex-direction: column;
   align-items: center;
   font-size: var(--small-font-size);
-  color: var(--title-color);
+  color: hsl(0, 0%, 20%);
   font-weight: var(--font-medium);
-  transition: 0.3s;
+  transition: 0.5s;
 }
 
 .nav__icon,
@@ -67,8 +68,9 @@
 /* Trasistioned Links */
 
 .active-link,
+.navbar__icon,
 .nav__link:hover {
-  color: var(--title-color-dark);
+  color: rgb(0, 0, 0);
 }
 
 /*=============== BREAKPOINTS ===============*/
@@ -96,10 +98,10 @@
     bottom: -100%;
     left: 0;
     width: 100%;
-    background-color: var(--body-color);
+    background-color: rgb(233, 237, 239);
     padding: 2rem 1.5rem 4rem;
-    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 1.5rem 1.5rem 0 0;
+    box-shadow: 0 -5px 5px rgba(0, 55, 110, 0.234);
+    border-radius: 1.5rem 1.5rem 0.15rem 0.15rem;
     transition: 0.3s;
   }
 

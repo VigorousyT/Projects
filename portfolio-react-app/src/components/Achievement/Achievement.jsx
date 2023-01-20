@@ -1,9 +1,9 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
 import "./achievement.css";
-import Cert1 from "../../assets/Certificate-1.png";
-import Cert2 from "../../assets/Cert2.png";
-import Cert3 from "../../assets/Certificate-3.png";
+import Cert1 from "../../assets/Cert-1.png";
+import Cert2 from "../../assets/Cert-2.png";
+import Cert3 from "../../assets/Cert-3.png";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 // import required modules
@@ -47,6 +47,15 @@ function Achievement() {
           </SwiperSlide>
 
           <SwiperSlide className="achievement__card">
+            <img src={Cert3} alt="" className="achievement__img" />
+
+            <h3 className="achievement__name">
+              Graphic Designer from Internshala
+            </h3>
+            <p className="achievement__description">{/*  */}</p>
+          </SwiperSlide>
+
+          <SwiperSlide className="achievement__card">
             <img src={Cert2} alt="" className="achievement__img" />
 
             <h3 className="achievement__name">Ethical Hacking from skillUp</h3>
@@ -54,12 +63,18 @@ function Achievement() {
           </SwiperSlide>
 
           <SwiperSlide className="achievement__card">
-            <img src={Cert3} alt="" className="achievement__img" />
+            <img
+              src="https://images.unsplash.com/photo-1674227673465-a44d82dff801?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+              alt=""
+              className="achievement__img"
+            />
 
-            <h3 className="achievement__name">
-              Graphic Designer from Internshala
-            </h3>
-            <p className="achievement__description">{/*  */}</p>
+            <h3 className="achievement__name">Healthathon-Datathon</h3>
+            <p className="achievement__description">
+              It is descriptive based test using google Sheets. Where they asked
+              about the today's health crises which relly imapct our social
+              Life.
+            </p>
           </SwiperSlide>
         </Swiper>
       </section>

@@ -1,14 +1,12 @@
 import React from "react";
 import "./About.css";
 import HarshImg from "../../assets/logo.jpg";
-import CV from "../../assets/Harsh-1.pdf";
 import { BsGraphUp, BsFileEarmarkPdfFill } from "react-icons/bs";
 import { FcLikePlaceholder } from "react-icons/fc";
 import { RiCharacterRecognitionLine } from "react-icons/ri";
 import { SiSitepoint } from "react-icons/si";
 import Navbar from "../Navbar/Navbar";
 import Qualification from "../Qualifications/Qualifications";
-import Footer from "../Footer";
 
 function About() {
   return (
@@ -24,26 +22,70 @@ function About() {
             <div className="about__info grid">
               <div className="about__box">
                 <FcLikePlaceholder />
-                <h3 className="about__title">What I like:</h3>
+                <h3 className="about__title">Hobbies</h3>
                 <SiSitepoint size={10} />
                 &nbsp;
-                <span className="about__subtitle"></span>
+                <span className="about__subtitle">Watching Sci-fi movies</span>
+                <br />
+                <SiSitepoint size={10} />
+                &nbsp;
+                <span className="about__subtitle">Playing OutDoor Games</span>
+                <br />
+                <SiSitepoint size={10} />
+                &nbsp;
+                <span className="about__subtitle">Playing Video Games</span>
+                <br />
+                <SiSitepoint size={10} />
+                &nbsp;
+                <span className="about__subtitle">Going through A.I</span>
+                <br />
+                <SiSitepoint size={10} />
+                &nbsp;
+                <span className="about__subtitle">Soft Bhajans/Kirtans</span>
                 <br />
               </div>
+
               <div className="about__box">
                 <BsGraphUp />
                 <h3 className="about__title">What I'm Doing</h3>
                 <SiSitepoint size={10} />
                 &nbsp;
-                <span className="about__subtitle"></span>
+                <span className="about__subtitle">
+                  Working to Improve my communication skills.
+                </span>
                 <br />
+                <SiSitepoint size={10} />
+                &nbsp;
+                <span className="about__subtitle">
+                  Searching For a Job in IT Sector as a FSD
+                </span>
+                <br />
+                {/* <SiSitepoint size={10} />
+                &nbsp;
+                <span className="about__subtitle"></span>
+                <br /> */}
               </div>
+
               <div className="about__box">
                 <RiCharacterRecognitionLine />
                 <h3 className="about__title">Recognition</h3>
                 <SiSitepoint size={10} />
                 &nbsp;
-                <span className="about__subtitle"></span>
+                <span className="about__subtitle">
+                  Qwiklabs Mention in December Hall of Fame
+                </span>
+                <br />
+                <SiSitepoint size={10} />
+                &nbsp;
+                <span className="about__subtitle">
+                  Achieved a FSD certificate from UpGrad
+                </span>
+                <br />
+                <SiSitepoint size={10} />
+                &nbsp;
+                <span className="about__subtitle">
+                  Deployed my front-end app
+                </span>
                 <br />
               </div>
             </div>
@@ -52,7 +94,7 @@ function About() {
             <div className="navigate">
               <a
                 download=""
-                href={CV}
+                href="https://drive.google.com/file/d/1jTZdLklwYHBG26V8hxsVTvCz7dkRFKZQ/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="button button--flex"

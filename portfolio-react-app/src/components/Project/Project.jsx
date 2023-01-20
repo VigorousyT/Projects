@@ -10,8 +10,6 @@ import WebWork1 from "../../assets/WebWork1.png";
 import WebWork2 from "../../assets/WebWork2-2.png";
 import WebWork3 from "../../assets/WebWork3.png";
 import work4 from "../../assets/work4.jpg";
-import work5 from "../../assets/work5.jpg";
-import work6 from "../../assets/work6.jpg";
 
 function Project() {
   const [toggle, setToggle] = useState(1);
@@ -129,7 +127,11 @@ function Project() {
               </div>
 
               <div className="work__card">
-                <img src={work5} alt="" className="work__img" />
+                <img
+                  src="https://images.unsplash.com/photo-1674226709258-602c80f8a78a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8M3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+                  alt=""
+                  className="work__img"
+                />
                 <h3 className="work__title">Blue Tranquil</h3>
                 <span className="work__subtitle"></span>
                 {/* <a
@@ -141,8 +143,62 @@ function Project() {
               </div>
 
               <div className="work__card">
-                <img src={work6} alt="" className="work__img" />
+                <img
+                  src="https://images.unsplash.com/photo-1674226709073-76a1c578e1d6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8N3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+                  alt=""
+                  className="work__img"
+                />
                 <h3 className="work__title">Black and white</h3>
+                <span className="work__subtitle"></span>
+                {/* <a
+                  href="https://vigorousyt.blogspot.com/2022/10/coffee-webpage-code-representation-may.html"
+                  className="work__button"
+                >
+                  Link To Img &nbsp; <GoTriangleRight />
+                </a> */}
+              </div>
+
+              <div className="work__card">
+                <img
+                  src="https://images.unsplash.com/photo-1674226709430-064f4f917516?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+                  alt=""
+                  className="work__img"
+                />
+                <h3 className="work__title">A man in snow</h3>
+                <span className="work__subtitle"></span>
+                {/* <a
+                  href="https://vigorousyt.blogspot.com/2022/10/coffee-webpage-code-representation-may.html"
+                  className="work__button"
+                >
+                  Link To Img &nbsp; <GoTriangleRight />
+                </a> */}
+              </div>
+
+              <div className="work__card">
+                <img
+                  src="https://images.unsplash.com/photo-1674226708927-99064554bf65?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+                  alt=""
+                  className="work__img"
+                  height={1000}
+                />
+                <h3 className="work__title">Cycling Man</h3>
+                <span className="work__subtitle"></span>
+                {/* <a
+                  href="https://vigorousyt.blogspot.com/2022/10/coffee-webpage-code-representation-may.html"
+                  className="work__button"
+                >
+                  Link To Img &nbsp; <GoTriangleRight />
+                </a> */}
+              </div>
+
+              <div className="work__card">
+                <img
+                  src="https://images.unsplash.com/photo-1674227297214-f8c193ce92ba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+                  alt=""
+                  className="work__img"
+                  height={1000}
+                />
+                <h3 className="work__title">Lady on a Mountain</h3>
                 <span className="work__subtitle"></span>
                 {/* <a
                   href="https://vigorousyt.blogspot.com/2022/10/coffee-webpage-code-representation-may.html"

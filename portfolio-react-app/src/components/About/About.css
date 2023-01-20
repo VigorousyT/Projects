@@ -5,6 +5,8 @@
 }
 
 .about__img {
+  background: linear-gradient(315deg, #ffec61, #f321d7);
+  position: relative;
   width: 350px;
   border-radius: 1.5rem;
   justify-self: auto;
@@ -71,6 +73,9 @@
   .about__container {
     grid-template-columns: 1fr;
     row-gap: 2.5rem;
+  }
+  .img__card {
+    justify-self: center;
   }
   .about__img {
     width: 220px;
