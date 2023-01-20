@@ -5,10 +5,11 @@ import Navbar from "../Navbar/Navbar";
 import { IoLogoDesignernews } from "react-icons/io";
 import { SiReactos } from "react-icons/si";
 import { GoTriangleRight } from "react-icons/go";
-
 import WebWork1 from "../../assets/WebWork1.png";
 import WebWork2 from "../../assets/WebWork2-2.png";
 import WebWork3 from "../../assets/WebWork3.png";
+import WebWork4 from "../../assets/WebWork4.jpg";
+import WebWork5 from "../../assets/WebWork5.png";
 import work4 from "../../assets/work4.jpg";
 
 function Project() {
@@ -71,6 +72,8 @@ function Project() {
                 <a
                   href="https://vigorousyt.blogspot.com/2022/10/coffee-webpage-code-representation-may.html"
                   className="work__button"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   Link To Code &nbsp; <GoTriangleRight />
                 </a>
@@ -83,6 +86,8 @@ function Project() {
                 <a
                   href="https://vigorousyt.blogspot.com/2022/10/coffee-webpage-code-representation-may.html"
                   className="work__button"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   Link To Code &nbsp; <GoTriangleRight />
                 </a>
@@ -91,12 +96,50 @@ function Project() {
               <div className="work__card">
                 <img src={WebWork3} alt="" className="work__img" />
                 <h3 className="work__title">WakeCup Coffee App</h3>
-                <span className="work__subtitle"></span>
+                <span className="work__subtitle">
+                  A wesite using HTML, CSS, Made this static web while
+                  practicing Html and css. Attaching code for this.
+                </span>
                 <a
                   href="https://github.com/VigorousyT/WakeCup-Project"
                   className="work__button"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   Link To Code &nbsp; <GoTriangleRight />
+                </a>
+              </div>
+
+              <div className="work__card">
+                <img src={WebWork4} alt="" className="work__img" />
+                <h3 className="work__title">Social Media Full Stack App</h3>
+                <span className="work__subtitle">
+                  Working on to deploy this website as soon as possible
+                </span>
+                <a
+                  href="https://github.com/VigorousyT/WakeCup-Project"
+                  className="work__button"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  No Code for this &nbsp; <GoTriangleRight />
+                </a>
+              </div>
+
+              <div className="work__card">
+                <img src={WebWork5} alt="" className="work__img" />
+                <h3 className="work__title">Portfolio React App</h3>
+                <span className="work__subtitle">
+                  A app for me where to can represent my skills, Projects and
+                  work
+                </span>
+                <a
+                  href="https://harsh-portfolio-4op0dpj2h-vigorousyt.vercel.app/"
+                  className="work__button"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Deployed App &nbsp; <GoTriangleRight />
                 </a>
               </div>
             </div>
