@@ -35,6 +35,15 @@
   background-color: var(--title-color) !important;
 }
 
+.achievement__section__title {
+  padding-top: 1.25rem;
+  font-size: 3rem;
+  background: linear-gradient(to right, #fa7cfa, #00575cbc, #a80242, #ffd885);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 1000px) {
@@ -43,5 +52,17 @@
   }
   .achievement__card {
     padding: 1.25rem 1.5rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .achievement__container {
+    width: initial;
+  }
+  .achievement__card {
+    padding: 1.25rem 1.5rem;
+  }
+  .achievement__section__title {
+    display: none;
   }
 }

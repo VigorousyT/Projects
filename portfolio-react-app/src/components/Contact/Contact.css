@@ -147,5 +147,16 @@ iframe {
 }
 
 /* For small devices */
+@media screen and (max-width: 450px) {
+  iframe {
+    width: 70%;
+    height: 300px;
+  }
+}
+
 @media screen and (max-width: 350px) {
+  iframe {
+    width: 50%;
+    height: 150px;
+  }
 }

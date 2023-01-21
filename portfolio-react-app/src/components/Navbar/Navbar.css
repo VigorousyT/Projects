@@ -22,7 +22,6 @@
     #60c2ff,
     #50bbfe
   );
-  box-shadow: 0 3px 5px #a5b0ce;
 }
 
 .nav {
@@ -71,6 +70,11 @@
 .navbar__icon,
 .nav__link:hover {
   color: rgb(0, 0, 0);
+}
+
+/* change background header */
+.scroll-header {
+  box-shadow: 0 3px 5px #a5b0ce;
 }
 
 /*=============== BREAKPOINTS ===============*/

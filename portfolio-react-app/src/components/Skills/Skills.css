@@ -110,4 +110,7 @@
   .skills__name {
     font-size: var(--small-font-size);
   }
+  .section__title {
+    display: none;
+  }
 }

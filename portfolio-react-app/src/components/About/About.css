@@ -136,6 +136,10 @@
 
 /* For medium devices */
 @media screen and (max-width: 768px) {
+  .about__info {
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+  }
   .about1__title1 {
     margin-top: 3rem;
   }

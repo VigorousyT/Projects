@@ -7,7 +7,8 @@ import Skills from './Skills/Skills';
 import Achievement from './Achievement/Achievement';
 import Contact from './Contact/Contact';
 import Project from './Project/Project';
-import Footer from './Footer';
+import Footer from './Footer/Footer';
+import ScrollUp from './ScrollUp/ScrollUp';
 
 const ComponentApp = () => {
     return (
@@ -20,11 +21,10 @@ const ComponentApp = () => {
                 <Project />
                 <Achievement />
                 <Contact />
-
                 <Outlet />
             </main>
+            <ScrollUp />
             <Footer />
-
         </>
     )
 }

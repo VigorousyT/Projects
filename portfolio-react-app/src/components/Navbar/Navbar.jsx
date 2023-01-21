@@ -11,7 +11,15 @@ import { FiMenu } from "react-icons/fi";
 import logo from "../../assets/Logo.png";
 
 function Navbar() {
-  /*=============== MENU ===============*/
+  /*=============== Header ===============*/
+  window.addEventListener("scroll", function () {
+    const header = this.document.querySelector(".header");
+    //when the scroll is higher than 560vh height, add the scroll-header class to a tag with the scroll-top class
+    if (this.scrollY >= 80) header.classList.add("scroll-header");
+    else header.classList.remove("scroll-header");
+  });
+
+  /*=============== toogle menu ===============*/
   const [Toggle, showMenu] = useState();
 
   return (

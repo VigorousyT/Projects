@@ -77,6 +77,15 @@
   transform: translate(6px, -30px);
 }
 
+.qualification__section__title {
+  padding-top: 1.25rem;
+  font-size: 3rem;
+  background: linear-gradient(to right, #fa7cfa, #00575cbc, #a80242, #ffd885);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
@@ -107,5 +116,8 @@
 @media screen and (max-width: 350px) {
   .qualification__data {
     gap: 0.5rem;
+  }
+  .qualification__section__title {
+    display: none;
   }
 }
