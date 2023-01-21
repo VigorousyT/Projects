@@ -8,11 +8,10 @@ import Achievement from './Achievement/Achievement';
 import Contact from './Contact/Contact';
 import Project from './Project/Project';
 import Footer from './Footer';
-import { Analytics } from '@vercel/analytics/react';
 
 const ComponentApp = () => {
     return (
-        <Analytics>
+        <>
             <Navbar></Navbar>
             <main className='main'>
                 <Home />
@@ -26,7 +25,7 @@ const ComponentApp = () => {
             </main>
             <Footer />
 
-        </Analytics>
+        </>
     )
 }
 
