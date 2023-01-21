@@ -149,6 +149,18 @@ function Contact() {
             </form>
           </div>
         </div>
+        <div className="contact__address">
+          <h3 className="contact__title">Address</h3>
+          <iframe
+            title="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d458879.28205545933!2d82.90417809367219!3d26.03373954478361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3991bd4c55c8f843%3A0xeae963c8d2194a57!2sHARSH%20YADAV!5e0!3m2!1sen!2sin!4v1674304503599!5m2!1sen!2sin"
+            width="400"
+            height="300"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
       </section>
     </>
   );
