@@ -6,10 +6,9 @@
 
 .about__img {
   background: linear-gradient(315deg, #ffec61, #f321d7);
-  position: relative;
   width: 350px;
   border-radius: 1.5rem;
-  justify-self: auto;
+  justify-self: left;
 }
 
 .about__info {
@@ -52,6 +51,15 @@
   -webkit-background-clip: text;
 }
 
+.navigate {
+  display: flex;
+}
+
+.navigate__1 {
+  display: flexbox;
+  margin-right: 0.3rem;
+}
+
 /* Box elements */
 .about__title {
   font-size: var(--normal-font-size);
@@ -64,9 +72,9 @@
 
 .about__description {
   margin-bottom: var(--mb-2-5);
-  padding: 0 2rem 0 1rem;
+  padding: 1rem 2rem 1rem 1rem;
+  text-align: center;
 }
-
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
@@ -91,8 +99,12 @@
     justify-content: center;
   }
   .about__description {
+    text-align: center;
     padding: 0 5rem;
     margin-bottom: 2rem;
+  }
+  .navigate {
+    justify-content: center;
   }
 }
 
@@ -108,7 +120,8 @@
     padding-top: 3.4rem;
   }
   .about__info {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
   }
   .about__description {
     padding: 0;
@@ -118,6 +131,6 @@
 /* For small devices */
 @media screen and (max-width: 350px) {
   .about__info {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 }

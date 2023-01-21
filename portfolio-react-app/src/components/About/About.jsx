@@ -4,7 +4,7 @@ import HarshImg from "../../assets/logo.jpg";
 import { BsGraphUp, BsFileEarmarkPdfFill } from "react-icons/bs";
 import { FcLikePlaceholder } from "react-icons/fc";
 import { RiCharacterRecognitionLine } from "react-icons/ri";
-import { SiSitepoint } from "react-icons/si";
+import { SiSitepoint, SiGooglechat } from "react-icons/si";
 import Navbar from "../Navbar/Navbar";
 import Qualification from "../Qualifications/Qualifications";
 
@@ -18,7 +18,16 @@ function About() {
         <br />
         <div className="about__container container grid">
           <img src={HarshImg} alt="" className="about__img" />
+
           <div className="about__data">
+            <p className="about__description">
+              {/* here give your about  */}
+              <p style={{ color: "#d5005cd0" }}>
+                Put my Gmail account and start a Google chat with me. :--
+                <span style={{ color: "red" }}>Harshyadav082000@gmail.com</span>
+              </p>
+            </p>
+
             <div className="about__info grid">
               <div className="about__box">
                 <FcLikePlaceholder />
@@ -68,7 +77,7 @@ function About() {
 
               <div className="about__box">
                 <RiCharacterRecognitionLine />
-                <h3 className="about__title">Recognition</h3>
+                <h3 className="about__title">Recent Accomplishments</h3>
                 <SiSitepoint size={10} />
                 &nbsp;
                 <span className="about__subtitle">
@@ -89,19 +98,33 @@ function About() {
                 <br />
               </div>
             </div>
-            <p className="about__description">{/* Please Write About you */}</p>
 
             <div className="navigate">
-              <a
-                download=""
-                href="https://drive.google.com/file/d/1jTZdLklwYHBG26V8hxsVTvCz7dkRFKZQ/view?usp=sharing"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="button button--flex"
-              >
-                Download CV &nbsp;&nbsp;
-                <BsFileEarmarkPdfFill size={15} />
-              </a>
+              <div className="navigate__1">
+                <a
+                  download=""
+                  href="https://drive.google.com/file/d/1jTZdLklwYHBG26V8hxsVTvCz7dkRFKZQ/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="button button--flex"
+                >
+                  Download CV &nbsp;&nbsp;
+                  <BsFileEarmarkPdfFill size={15} />
+                </a>
+              </div>
+
+              <div className="navigate__1">
+                <a
+                  download=""
+                  href="https://mail.google.com/chat/u/0/#chat/space/AAAAaKrm5zg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="button button--flex"
+                >
+                  Google Chat &nbsp;&nbsp;
+                  <SiGooglechat size={15} />
+                </a>
+              </div>
             </div>
           </div>
         </div>
