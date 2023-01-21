@@ -23,8 +23,8 @@ function About() {
 
           <div className="about__data">
             <p className="about__description">
-              As a recent graduate with a degree in Bachlor of science, I am
-              excited to begin my career in IT industry as a Full stack
+              As a recent graduate with a degree in Bachlor of science(Bsc), I
+              am excited to begin my career in IT industry as a Full stack
               developer. I have gained valuable skills through my coursework,
               including{" "}
               <a href="/skills" style={{ color: "#a00050" }}>
