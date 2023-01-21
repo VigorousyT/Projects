@@ -26,9 +26,9 @@ function About() {
               As a recent graduate with a degree in Bachlor of science(Bsc), I
               am excited to begin my career in IT industry as a Full stack
               developer. I have gained valuable skills through my coursework,
-              including{" "}
+              including &nbsp;
               <a href="/skills" style={{ color: "#a00050" }}>
-                these skills
+                skills
               </a>
               . I am eager to apply these skills in a professional setting and
               continue to learn and grow in my field.
