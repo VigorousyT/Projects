@@ -117,7 +117,7 @@ function Project() {
                   Working on to deploy this website as soon as possible
                 </span>
                 <a
-                  href="https://github.com/VigorousyT/WakeCup-Project"
+                  href="/"
                   className="work__button"
                   target="_blank"
                   rel="noreferrer"

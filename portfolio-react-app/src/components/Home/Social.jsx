@@ -19,7 +19,7 @@ const Social = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <BsLinkedin />
+            <BsLinkedin size={25} />
           </a>
         </li>
         <li className="home_social_list">
@@ -29,7 +29,7 @@ const Social = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <BsInstagram />
+            <BsInstagram size={25} />
           </a>
         </li>
         <li className="home_social_list">
@@ -39,7 +39,7 @@ const Social = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <BsTelegram />
+            <BsTelegram size={25} />
           </a>
         </li>
         <li className="home_social_list">
@@ -49,7 +49,7 @@ const Social = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <BsGithub />
+            <BsGithub size={25} />
           </a>
         </li>
         <li className="home_social_list">
@@ -59,7 +59,7 @@ const Social = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <BsMedium />
+            <BsMedium size={25} />
           </a>
         </li>
       </ul>

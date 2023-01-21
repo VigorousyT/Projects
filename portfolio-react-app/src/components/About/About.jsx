@@ -50,6 +50,12 @@ function About() {
                 <br />
                 <SiSitepoint size={10} />
                 &nbsp;
+                <span className="about__subtitle">
+                  Knowing about the technology
+                </span>
+                <br />
+                <SiSitepoint size={10} />
+                &nbsp;
                 <span className="about__subtitle">Soft Bhajans/Kirtans</span>
                 <br />
               </div>
@@ -67,6 +73,17 @@ function About() {
                 &nbsp;
                 <span className="about__subtitle">
                   Searching For a Job in IT Sector as a FSD
+                </span>
+                <br />
+                <SiSitepoint size={10} />
+                &nbsp;
+                <span className="about__subtitle">
+                  Reading a book{" "}
+                  <span style={{ color: "lightsalmon" }}>
+                    [21 Lessons for the 21st Century]
+                  </span>{" "}
+                  by{" "}
+                  <span style={{ color: "lightpink" }}>Yuval Noah Harari</span>
                 </span>
                 <br />
                 {/* <SiSitepoint size={10} />
