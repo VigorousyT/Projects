@@ -6,9 +6,28 @@
 
 .about__img {
   background: linear-gradient(315deg, #ffec61, #f321d7);
-  width: 350px;
+  width: 310px;
   border-radius: 1.5rem;
   justify-self: left;
+  box-shadow: -15px 15px 50px #ff01dda3;
+}
+
+.about__img__img {
+  width: 300px;
+  margin-top: 0.25rem;
+  margin-left: 0.25rem;
+  border-radius: 1.5rem;
+  box-shadow: 15px 15px 50px #ffe100b5;
+  animation: fadeIn 8s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .about__info {
@@ -86,8 +105,15 @@
     justify-self: center;
   }
   .about__img {
-    width: 220px;
+    width: 205px;
     justify-self: center;
+  }
+  .about__img__img {
+    background: linear-gradient(315deg, #ffec61, #f321d7);
+    width: 200px;
+    margin-top: 0.3rem;
+    margin-left: 0.15rem;
+    border-radius: 1.5rem;
   }
   .about__box {
     padding: 0.75rem 0.5rem;

@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import HarshImg from "../../assets/logo.jpg";
+import HarshImg from "../../assets/My project-1.png";
 import { BsGraphUp, BsFileEarmarkPdfFill } from "react-icons/bs";
 import { FcLikePlaceholder } from "react-icons/fc";
 import { RiCharacterRecognitionLine } from "react-icons/ri";
@@ -17,16 +17,26 @@ function About() {
         <h4 className="about2__title2">Hello, it's Harsh Here</h4>
         <br />
         <div className="about__container container grid">
-          <img src={HarshImg} alt="" className="about__img" />
+          <div className="about__img">
+            <img src={HarshImg} alt="" className="about__img__img" />
+          </div>
 
           <div className="about__data">
             <p className="about__description">
-              {/* here give your about  */}
-              <p style={{ color: "#d5005cd0" }}>
-                Put my Gmail account and start a Google chat with me. :--
-                <span style={{ color: "red" }}>Harshyadav082000@gmail.com</span>
-              </p>
+              As a recent graduate with a degree in Bachlor of science, I am
+              excited to begin my career in IT industry as a Full stack
+              developer. I have gained valuable skills through my coursework,
+              including{" "}
+              <a href="/skills" style={{ color: "#a00050" }}>
+                these skills
+              </a>
+              . I am eager to apply these skills in a professional setting and
+              continue to learn and grow in my field.
             </p>
+            <span style={{ color: "#d5005cd0" }}>
+              Put my Gmail account and start a Google chat with me. :--
+              <span style={{ color: "red" }}>Harshyadav082000@gmail.com</span>
+            </span>
 
             <div className="about__info grid">
               <div className="about__box">

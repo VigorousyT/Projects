@@ -241,7 +241,7 @@
 
 .footer__copyright {
   display: block;
-  margin-top: 4.5rem;
+  margin-top: 4rem;
   color: whitesmoke;
   text-align: center;
   font-size: var(--smaller-font-size);
@@ -262,7 +262,7 @@
 /* For large devices */
 @media screen and (max-width: 992px) {
   .footer__social-link {
-    padding: 0.25rem;
+    padding: 0.3rem;
     border-radius: 0.25rem;
     font-size: 1rem;
   }
