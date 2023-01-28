@@ -83,9 +83,10 @@ function Footer() {
         </div>
 
         <span className="footer__copyright">
-          Copyright
+          Created with 💖 by "Harsh Yadav"
+          <br />
           <TbCopyright className="footer__copyright-icon" size={20} />
-          &nbsp; 2023;&nbsp; Harsh Yadav. All Rights Reserved
+          &nbsp; 2023;&nbsp; @Yadav org. All Rights Reserved
         </span>
       </div>
     </footer>

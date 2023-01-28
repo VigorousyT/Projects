@@ -5,6 +5,7 @@ import Navbar from "../Navbar/Navbar";
 import { IoLogoDesignernews } from "react-icons/io";
 import { SiReactos } from "react-icons/si";
 import { GoTriangleRight } from "react-icons/go";
+// import { GiArtificialIntelligence } from "react-icons/gi";
 import WebWork1 from "../../assets/WebWork1.png";
 import WebWork2 from "../../assets/WebWork2-2.png";
 import WebWork3 from "../../assets/WebWork3.png";
@@ -54,6 +55,20 @@ function Project() {
               &nbsp;&nbsp;Designs
             </div>
             {/* Upto design Button */}
+
+            {/* A.I Button */}
+            {/* <div
+              className={
+                toggle === 3
+                  ? "work__item project__active button--flex"
+                  : "work__item button--flex"
+              }
+              onClick={() => toggleTab(3)}
+            >
+              <GiArtificialIntelligence className="project__icon" size={18} />
+              &nbsp;&nbsp;A.I
+            </div> */}
+            {/* Upto A.I Button */}
           </div>
 
           {/* Web Projects Start */}

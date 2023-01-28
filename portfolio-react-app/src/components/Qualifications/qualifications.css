@@ -9,7 +9,7 @@
 .qualification__button {
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
-  color: var(--title-color);
+  color: #cccccc;
   margin: 0 var(--mb-1);
   cursor: pointer;
 }
@@ -47,17 +47,20 @@
 }
 
 .qualification__title {
+  color: #e5e5e5;
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
 }
 
 .qualification__subtitle {
+  color: #e5e5e5;
   display: inline;
   font-size: var(--small-font-size);
   margin-bottom: var(--mb-1);
 }
 
 .qualification__calender {
+  color: #e5e5e5;
   font-size: var(--small-font-size);
 }
 

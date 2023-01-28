@@ -33,7 +33,12 @@ function About() {
               . I am eager to apply these skills in a professional setting and
               continue to learn and grow in my field.
             </p>
-            <span style={{ color: "#d5005cd0", textAlign: "center" }}>
+            <span
+              style={{
+                color: "hwb(331 5% 15%)",
+                textAlign: "center",
+              }}
+            >
               Put my Gmail account and start a Google chat with me. :--
               <span style={{ color: "red" }}>Harshyadav082000@gmail.com</span>
             </span>

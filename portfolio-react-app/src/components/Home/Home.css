@@ -13,11 +13,11 @@
 
 .home__social-icon {
   font-size: 1.8rem;
-  color: var(--title-color);
+  color: rgb(120, 120, 120);
 }
 
 .home__social-icon:hover {
-  color: var(--title-color-dark);
+  color: rgb(70, 45, 45);
 }
 
 .home__title {
@@ -62,12 +62,13 @@
 }
 
 .home__description {
+  color: #e5e5e5;
   max-width: 400px;
   margin-bottom: var(--mb-3);
 }
 
 .home-img {
-  background: url(../../assets/logo.jpg);
+  background: url(../../assets/logo.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

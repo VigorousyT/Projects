@@ -1,5 +1,5 @@
 import React from "react";
-import { GrSend } from "react-icons/gr";
+import { RiMailSendFill } from "react-icons/ri";
 import { Link } from "react-router-dom";
 import "./Home.css";
 
@@ -17,7 +17,7 @@ const Data = () => {
       <Link to="/contact" className="button button--flex">
         Text Me. &nbsp;&nbsp;
         <span>
-          <GrSend />
+          <RiMailSendFill size={20} />
         </span>
       </Link>
     </div>

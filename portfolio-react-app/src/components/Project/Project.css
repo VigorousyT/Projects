@@ -8,7 +8,7 @@
 
 .work__item {
   cursor: pointer;
-  color: var(--title-color);
+  color: rgb(170, 170, 170);
   padding: 0.25rem;
   font-weight: var(--font-medium);
   border-radius: 0.25rem;
@@ -27,7 +27,7 @@
 }
 
 .work__card {
-  background-color: var(--container-color);
+  background-color: rgb(220, 220, 220);
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 1rem;
   border-radius: 1.5rem;

@@ -37,7 +37,7 @@
 }
 
 .about__box {
-  background-color: var(--container-color);
+  background-color: rgb(220, 220, 220);
   border: 2.5px solid rgba(0, 0, 0, 0.1);
   border-radius: 0.75rem;
   text-align: center;
@@ -55,7 +55,7 @@
   text-align: center;
   font-size: 3rem;
   font-weight: rgba(85, 2, 39, 0.573);
-  background: linear-gradient(to right, #fa7cfa, #00575cbc, #a80242, #ffd885);
+  background: linear-gradient(to right, #ff0381, #14bcc5bc, #c51559, #ffaf02);
   -webkit-text-fill-color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
@@ -64,7 +64,14 @@
 .about2__title2 {
   text-align: center;
   font-size: 2rem;
-  background: linear-gradient(to right, #f90361, #3713d5, #017931, #ff02ff);
+  background: linear-gradient(
+    to right,
+    #2a01e1,
+    #f90361,
+    #001aff,
+    #00a040,
+    red
+  );
   -webkit-text-fill-color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
@@ -90,6 +97,7 @@
 }
 
 .about__description {
+  color: #e5e5e5;
   margin-bottom: var(--mb-2-5);
   padding: 1rem 1rem 0rem 0rem;
   text-align: center;

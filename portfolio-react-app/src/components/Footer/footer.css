@@ -52,7 +52,7 @@
 .footer__copyright {
   display: block;
   margin-top: 4.5rem;
-  color: var(--title-color);
+  color: var(--container-color);
   text-align: center;
   font-size: var(--smaller-font-size);
 }

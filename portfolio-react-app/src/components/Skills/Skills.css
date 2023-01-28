@@ -6,7 +6,7 @@
 .section__title {
   padding-top: 1.25rem;
   font-size: 3rem;
-  background: linear-gradient(to right, #fa7cfa, #00575cbc, #a80242, #ffd885);
+  background: linear-gradient(to right, #ff0381, #14bcc5bc, #c51559, #ffaf02);
   -webkit-text-fill-color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
@@ -15,14 +15,14 @@
 .section__subtitle {
   text-align: center;
   font-size: 2rem;
-  background: linear-gradient(to right, #f90361, #3713d5, #017931, #ff02ff);
+  background: linear-gradient(to right, #ff297b, #0921fd, #47fff6, red);
   -webkit-text-fill-color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
 }
 
 .skills__content {
-  background-color: var(--container-color);
+  background-color: rgb(220, 220, 220);
   border: 2px solid rgba(0, 0, 0, 0.1);
   text-align: center;
   padding: 0.2rem 0.2rem;

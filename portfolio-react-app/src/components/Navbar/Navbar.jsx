@@ -8,7 +8,7 @@ import { AiOutlineContacts } from "react-icons/ai";
 import { RxCross2 } from "react-icons/rx";
 import { SiAboutdotme } from "react-icons/si";
 import { FiMenu } from "react-icons/fi";
-import logo from "../../assets/Logo.png";
+import logo from "../../assets/Navlogo/Navlogo.png";
 
 function Navbar() {
   /*=============== Header ===============*/
